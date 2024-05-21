@@ -1,8 +1,6 @@
-# Q-SYS Plugins Documentation
+# Starter Web Interface Documentation
 
-User documentation for the Q-SYS plugins for Designer and Expert.
-
-This is built and deployed to the dl.pharoscontrols.com site, currently under software_help/qsc
+User documentation for the Designer starter web interface.
 
 ## Prerequisites
 
@@ -26,27 +24,4 @@ or on Windows:
 
     .\make.bat html
 
-This will create the html output for Pharos in the `build` directory (which will be created if building for the first time).
-
-### Building a specific product
-
-The system can generate documentation for either the Designer or Expert product lines. To specify a product, set `PRODUCT` in your environment, e.g.
-
-using Linux or macOS:
-
-    PRODUCT=designer make html
-
-using Windows Command Prompt:
-
-    set PRODUCT=designer
-    make.bat html
-
-using PowerShell:
-
-    $env:PRODUCT = 'designer'
-    ./make.bat html
-
-Currently supported products are:
-
-* `designer` for Pharos Designer (the default)
-* `expert` for Pharos Expert
+This will create the html output in the `build` directory (which will be created if building for the first time).
