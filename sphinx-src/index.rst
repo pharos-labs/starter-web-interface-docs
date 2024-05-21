@@ -25,6 +25,6 @@ Compatibility
 
 The Starter Web Interface is responsively designed and will automatically adjust to accommodate large (desktop) and small (mobile device) screen sizes and is optimized for use with Apple iOS devices using their web application mechanism.
 
-The Starter Web Interface utilizes API 6.0 and is compatible with Mosaic Designer Software v2.9 and later. Future API version releases may require modification to ensure continued functionality.
+The Starter Web Interface is compatible with API |API_Versions| and is compatible with |Vendor| |Designer| Software v2.9 and later. Future API version releases may require modification to ensure continued functionality.
 
-The API setting is located in Mosaic Designer Software under the Project Properties tab.
+The API setting is located in |Vendor| |Designer| Software under the Project Properties tab.

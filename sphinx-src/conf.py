@@ -53,6 +53,10 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 project = u'Starter Web Interface'
 
+# Variables for use in the docs
+rst_prolog = """
+    .. |API_Versions| replace:: 6.0 - 8.0
+"""
 
 # Get vendor variant
 # Check if we're building on RTD, in which case use project name to determine variant
@@ -76,7 +80,7 @@ if variant == 'mosaic':
     print('Building Mosaic variant')
     copyright = f'{current_year} ETC Inc'
     author = u'ETC Inc'
-    rst_prolog = """
+    rst_prolog += """
     .. |Vendor| replace:: Mosaic
     .. |Designer| replace:: Designer
     """
@@ -86,7 +90,7 @@ else:
     print('Building Pharos variant')
     copyright = f'{current_year} Pharos Architectural Controls Ltd'
     author = u'Pharos Controls Ltd'
-    rst_prolog = """
+    rst_prolog += """
     .. |Vendor| replace:: Pharos
     .. |Designer| replace:: Designer
     """

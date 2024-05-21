@@ -3,7 +3,7 @@ Installation
 
 Install the |Vendor| Starter Web Interface for use with your |Vendor| projects.
 
-#. Download the Starter Web Interface files from the |Vendor| |Designer| Software page on the ETC website at etcconnect.com/Products/ArchitecturalSystems/Mosaic/Designer-2-Software/Software.
+#. Download the Starter Web Interface files from the |Vendor| |Designer| web page.
 #. Unzip the files. The provided resources in the unzipped folder are required for the Starter Web Interface.
 #. Open your project configuration in |Vendor| |Designer| Software.
 #. Navigate to the Projects view and select the Project Properties tab to verify the Controller API is set to the latest version available.
@@ -18,7 +18,7 @@ Install the |Vendor| Starter Web Interface for use with your |Vendor| projects.
 
 #. Close the Custom Web Interface window, save your project file and upload.
 
-This Interface was created specifically for API version 6.0. Future API releases may need modification to ensure continued functionality. This setting can be found in the Project view in Designer 2 under the tab Project Properties.
+This Interface was created specifically for API version |API_Versions|. Future API releases may need modification to ensure continued functionality. This setting can be found in the Project view in Designer 2 under the tab Project Properties.
 
 .. image:: ../img/api_version.png
 
