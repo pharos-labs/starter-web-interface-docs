@@ -25,3 +25,26 @@ or on Windows:
     .\make.bat html
 
 This will create the html output in the `build` directory (which will be created if building for the first time).
+
+### Building a specific variant
+
+To build a different variant, e.g. Mosaic, set `VARIANT` in your environment, e.g.
+
+using Linux or macOS:
+
+    VARIANT=mosaic make html
+
+using Windows Command Prompt:
+
+    set VARIANT=mosaic
+    make.bat html
+
+using PowerShell:
+
+    $env:VARIANT = 'mosaic'
+    ./make.bat html
+
+Currently supported variants are:
+
+* `pharos` for Pharos (the default)
+* `mosaic` for ETC Mosaic

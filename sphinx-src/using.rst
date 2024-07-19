@@ -1,7 +1,7 @@
 Using the Interface
 ###################
 
-.. image:: ../img/using_hero.png
+.. image:: vendor_img//using_hero.png
 
 To access the Web Interface, simply navigate to the Controller's IP address from your web browser on your PC, Mac or mobile device. Your device and the |Vendor| Controller do need to be connected to the same Ethernet and/or Wi-Fi network.
 

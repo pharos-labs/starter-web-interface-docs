@@ -1,15 +1,7 @@
-.. toctree::
-   :hidden:
-
-   installation
-   using
-   security
-   customisation
-
 Introduction
 ############
 
-.. image:: ../img/swi_hero.png
+.. image:: vendor_img/swi_hero.png
   :alt: Starter Web Interface
 
 The |Vendor| Starter Web Interface is available for your use to interface with your |Vendor| |Designer| system, allowing most standard browsers including mobile devices access to view status and control elements in your project without the need to add triggers.
@@ -28,3 +20,11 @@ The Starter Web Interface is responsively designed and will automatically adjust
 The Starter Web Interface is compatible with API |API_Versions| and is compatible with |Vendor| |Designer| Software v2.9 and later. Future API version releases may require modification to ensure continued functionality.
 
 The API setting is located in |Vendor| |Designer| Software under the Project Properties tab.
+
+.. toctree::
+   :hidden:
+
+   installation
+   using
+   security
+   customisation
