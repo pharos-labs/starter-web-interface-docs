@@ -2,8 +2,8 @@
 #
 
 # You can set these variables from the command line.
-SPHINXOPTS    =
-SPHINXBUILD  := $(if $(SPHINXBUILD),$(SPHINXBUILD),"python -msphinx")
+SPHINXOPTS    ?=
+SPHINXBUILD   ?= sphinx-build
 SPHINXPROJ    = ControllerApi
 SOURCEDIR     = sphinx-src
 BUILDDIR      = build
