@@ -21,6 +21,18 @@ The Starter Web Interface is compatible with API |API_Versions| and is compatibl
 
 The API setting is located in |Vendor| |Designer| Software under the Project Properties tab.
 
+Release Notes
+#############
+
+8.0.2 Release
+=============
+
+The 8.0.2 release resolves the following issues:
+
+* `SWI Occupies more than 1 Websocket <https://github.com/pharos-labs/starter-web-interface/issues/1>`_
+* `Playback Group names containing Spaces do not work in conjunction with "Release all in Group First" <https://github.com/pharos-labs/starter-web-interface/issues/2>`_
+* `"Release All in Group" Switch doesn't work correctly <https://github.com/pharos-labs/starter-web-interface/issues/3>`_
+
 .. toctree::
    :hidden:
 
