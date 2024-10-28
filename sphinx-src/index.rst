@@ -24,6 +24,13 @@ The API setting is located in |Vendor| |Designer| Software under the Project Pro
 Release Notes
 #############
 
+8.0.3 Release
+=============
+
+The 8.0.3 release resolves the following issues:
+
+* `Group and Scene Limits do not work properly <https://github.com/pharos-labs/starter-web-interface/issues/4>`_
+
 8.0.2 Release
 =============
 
