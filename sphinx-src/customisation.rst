@@ -14,7 +14,7 @@ When we indicate what file needs to be edited, in the list of customisations bel
 * assets/scripts/pharos.js
 * assets/colorpicker/demo.js
 * assets/css/styles.css
-* assets/css/editable.js
+* assets/css/editable.css
 
 Changing the Logo
 *****************
@@ -38,7 +38,7 @@ Two files are used to provide the icon that iOS will save to your home screen (S
 Changing the Colour Scheme
 **************************
 
-This interface has been provided with a quick and easy way to customise the colour scheme to re-theme the look of the interface. The use of CSS variables allows for the editing of a simple text file to change the colours of the interface. Open and review the file assets/css/ editable.css
+This interface has been provided with a quick and easy way to customise the colour scheme to re-theme the look of the interface. The use of CSS variables allows for the editing of a simple text file to change the colours of the interface. Open and review the file assets/css/editable.css
 
 .. image:: ../img/colour_scheme_css.png
 
